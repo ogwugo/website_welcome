@@ -70,6 +70,7 @@
 .stores-head img{
   padding: 3px 0;
   height: 44px;
+  max-width: 45px;
   float: right;
   display: inline-block;
 }
@@ -353,7 +354,7 @@ h3.title {
 }
 @media all and (max-width: 767px) {
   h1, .h1 {
-    font-size: 2em;
+    font-size: 2.2em;
     line-height: 1.4em; } }
 .preamble {
   margin-bottom: 35px;
@@ -865,6 +866,7 @@ a:hover {
       color: #ffffff;
     }
     .header-txt p{
+      margin-top: 12px;
       margin-bottom: 30px;
       font-size: 20px
     }
